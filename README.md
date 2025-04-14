@@ -1,14 +1,14 @@
-Project Title
+#Project Title
 Fire-Smart Bioenergy nexus
-Description
+#Description
 Here we provide the code for the figure.3 in  Mansuy et al. ( in press) Integrating fire-smart fuels management with bioenergy benefits remote and Indigenous communities in Canada. Nature Communications Earth & Environment 
 To determine which communities would benefit the most from using biomass from fuel treatments as feedstock for bioenergy, we performed a hierarchical clustering analysis of the communities based on the BAFT, the theoretical percentage of FTA needed to meet AED, and current and future projected annual area burned (AAB). We used the heatmaply R package104 to perform the hierarchical clustering method and the data was scaled by subtracting the minimum and dividing by the maximum of all observations. This transformation brings the data for all variables to a 0 to 1 scale, while preserving the shape of each variable’s distribution. The clustering method, centroid, was chosen using the dendextend R package105 and the optimal number of clusters, five, was determined based on a consensus of many methods using the parameters R package106. Further details on the cluster analysis, including the R code, is available in the Supplementary information section. For each of the 33 communities, the current and future AAB was estimated from the HFRZ’s49 according to the community’s centroid. Estimates for current (1981-2010) and future (2011-2040) AAB were projected based on a refined version of the multivariate adaptive spline regression models developed by Boulanger et al. (2014)49 for each HFRZ, which estimates monthly AAB from current and future fire-weather and meteorological parameters. End-of-century climate conditions as simulated under the RCP 4.5 were used for future AAB projections.
-Getting Started
-Dependencies
+#Getting Started
+#Dependencies
 R Project for Statistical Computing
 heatmaply R package
 dendextend R package
-Installing
+#Installing
 R: The R Project for Statistical Computing
 Executing program
 #Figure 3 clustering and heatmap R codelibrary(ggplot2)
